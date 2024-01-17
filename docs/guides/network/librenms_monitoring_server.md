@@ -378,7 +378,7 @@ Save your changes and exit.
 Run the following commands to set up the cron jobs:
 
 ```
-cp /opt/librenms/librenms.nonroot.cron /etc/cron.d/librenms
+cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 ```
 
 The poller must run once, even though nothing is there to poll, before running the web setup procedure. It saves some troubleshooting trying to figure out what is wrong when you get poller errors in the validation section later on.
